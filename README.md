@@ -2,7 +2,10 @@
 
 Object Instantiate
 
-$cart = new CCart($db);
+//If database
+#$cart = new CCart($db);
+
+#$cart = new CCart();
  
 $cartSession = isset($_SESSION['custumer_cart']) ? $_SESSION['custumer_cart'] : null;
 
